@@ -12,9 +12,10 @@
 
 # 使用框架
 
-vue+webpack
+react
 
-
+# 技术支持
+我们使用了react, react-router, redux, jsx, ES6, ES Module, less等技术实现pc端网站的开发。
 
 ## 启动项目
 
@@ -22,9 +23,9 @@ vue+webpack
 
 npm install
 
-本地启动项目
+本地测试项目
 
-yarn  serve 
+yarn start 
 
 发布
 
