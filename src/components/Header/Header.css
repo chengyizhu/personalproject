@@ -1,0 +1,119 @@
+.top {
+  height: 40px;
+  width: 100%;
+  background-color: #F5F5F5;
+}
+.top .top-inner {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 12px;
+  color: #666666;
+  line-height: 40px;
+  display: flex;
+  position: relative;
+}
+.top .top-inner .leftContent {
+  flex: 1;
+}
+.top .top-inner span {
+  cursor: pointer;
+  padding-left: 10px;
+  display: inline-block;
+}
+.top .top-inner span:hover {
+  color: #FF7919;
+}
+.top .top-inner span:last-of-type {
+  padding-left: 0px;
+  padding-right: 10px;
+}
+.top .top-inner span:last-of-type:hover {
+  background-color: #FFFFFF;
+}
+.top .top-inner .mobilePic {
+  width: 82px;
+  height: 82px;
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+.top .top-inner .mobilePic img {
+  width: 100%;
+  height: 100%;
+}
+.mobileIcon {
+  position: relative;
+  top: 3px;
+  display: inline-block;
+  line-height: 40px;
+  margin: 0 5px 0 10px;
+  width: 9px;
+  height: 16px;
+  background: url('/static/img/icons_03.png') no-repeat;
+  background-position: -228px -11px;
+}
+.new-header {
+  width: 100%;
+  height: 130px;
+}
+.new-header .header-inner {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.new-header .header-inner .web-logo {
+  width: 193.68px;
+  height: 64px;
+  position: relative;
+  top: 38px;
+  margin-right: 30px;
+  background: url('/static/img/juooo_logo.png') no-repeat left top;
+  background-size: 100% 100%;
+}
+.new-header .header-inner .city b {
+  display: inline-block;
+  width: 72px;
+  height: 20px;
+  border: solid 1px #EBEBEB;
+  position: relative;
+  top: 68px;
+  box-sizing: border-box;
+  font-size: 12px;
+  color: #B3B3B3;
+  line-height: 18px;
+}
+.new-header .header-inner .city b i {
+  margin-left: 2px;
+  display: inline-block;
+  width: 13px;
+  height: 12px;
+  background: url('/static/img/icons_03.png') no-repeat;
+  background-position: -84px -12px;
+}
+.new-header .header-inner .search {
+  width: 516px;
+  height: 102px;
+  margin-left: 88px;
+  position: relative;
+}
+.new-header .header-inner .search input {
+  width: 428px;
+  height: 36px;
+  border: #FF7919 2px solid;
+  outline: none;
+  margin-top: 40px;
+  padding-left: 10px;
+}
+.new-header .header-inner .search .search-logo {
+  cursor: pointer;
+  width: 60px;
+  height: 42px;
+  background-color: #FF7919;
+  position: absolute;
+  right: 16px;
+  top: 40px;
+  background-image: url('/static/img/icons_03.png');
+  background-position: -120px 3px;
+}
