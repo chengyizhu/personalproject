@@ -1,7 +1,13 @@
+// 引入模块
 import React, { Component } from 'react';
+
+// 引入样式
 import './App.less';
 
+// 引入header组件
 import Header from './components/Header/Header';
+// 引入home页面组件
+import Home from './pages/Home/Home';
 
 class App extends Component {
 	render() {
@@ -17,7 +23,7 @@ class App extends Component {
 					'冰雪奇缘',
 					'来自远方'
 				]}></Header>
-				<h1>hello world!</h1>
+				<Home></Home>
 			</div>
 		);
 	}

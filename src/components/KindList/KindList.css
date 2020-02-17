@@ -1,0 +1,89 @@
+.kindlist {
+  width: 180px;
+  height: 400px;
+  background-color: #FAFAFA;
+  padding: 18px 0 18px 0;
+  box-sizing: border-box;
+}
+.kindlist li {
+  position: relative;
+  width: 100%;
+  height: 52px;
+  padding: 0 30px 0 24px;
+  box-sizing: border-box;
+}
+.kindlist li:hover span {
+  color: #FF7919;
+}
+.kindlist li:hover .kind-icon-position0 {
+  background-position: -32px 0px;
+}
+.kindlist li:hover .kind-icon-position1 {
+  background-position: -32px -54px;
+}
+.kindlist li:hover .kind-icon-position2 {
+  background-position: -32px -108px;
+}
+.kindlist li:hover .kind-icon-position3 {
+  background-position: -32px -162px;
+}
+.kindlist li:hover .kind-icon-position4 {
+  background-position: -32px -212px;
+}
+.kindlist li:hover .kind-icon-position5 {
+  background-position: -32px -262px;
+}
+.kindlist li:hover .kind-icon-position6 {
+  background-position: -32px -314px;
+}
+.kindlist li:hover .arrow-icon-position {
+  background-position: -461px -15px;
+}
+.kindlist li span {
+  display: inline-block;
+  line-height: 52px;
+  font-size: 14px;
+  color: #333;
+  margin-left: 5px;
+}
+.kindlist li .kind-icon {
+  vertical-align: middle;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background: url('/static/img/icons_03.png');
+}
+.kindlist li .kind-icon-position0 {
+  background-position: 0px 0px;
+}
+.kindlist li .kind-icon-position1 {
+  background-position: 0px -54px;
+}
+.kindlist li .kind-icon-position2 {
+  background-position: 0px -108px;
+}
+.kindlist li .kind-icon-position3 {
+  background-position: 0px -162px;
+}
+.kindlist li .kind-icon-position4 {
+  background-position: 0px -212px;
+}
+.kindlist li .kind-icon-position5 {
+  background-position: 0px -262px;
+}
+.kindlist li .kind-icon-position6 {
+  background-position: 0px -314px;
+}
+.kindlist li .arrow-icon {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  display: inline-block;
+  height: 8px;
+  width: 5px;
+  background: url('/static/img/icons_03.png');
+}
+.kindlist li .arrow-icon-position {
+  background-position: -474px -15px;
+}

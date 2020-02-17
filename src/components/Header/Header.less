@@ -126,14 +126,61 @@
             // 点击搜索的logo
             .search-logo {
                 cursor: pointer;
-                width: 60px;
-                height: 42px;
+                width: 56px;
+                height: 40px;
                 background-color: @color;
                 position: absolute;
-                right: 16px;
+                right: 18px;
                 top: 40px;
                 background-image: url(@url);
                 background-position: -120px 3px;
+            }
+            // 搜索框下方的关键词
+            .search-word-box {
+                font-size: 10px;
+                display: flex;
+                margin-top: 4px;
+                li {
+                    margin-right: 18px;
+                    a {
+                        color: #999;
+                    }
+                }
+            }
+        }
+    }
+}
+// 导航栏
+.nav-head {
+    width: 100%;
+    height: 45px;
+    .nav-head-inner {
+        width: 1200px;
+        height: 45px;
+        margin: 0 auto;
+        display: flex;
+        li {
+            line-height: 45px;
+            cursor: pointer;
+            width: 109px;
+            height: 100%;
+            &:first-of-type {
+                width: 180px;
+                height: 100%;
+                color: white;
+                background-color: @color;
+                text-align: center;
+                font-size: 14px;
+            }
+            a {
+                color: black;
+                float: right;
+                font-size: 16px;
+            }
+            &:hover {
+                a {
+                    color: @color;
+                }
             }
         }
     }

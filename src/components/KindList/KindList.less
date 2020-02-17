@@ -1,0 +1,103 @@
+// 网站多处用色
+@color: #FF7919;
+// 雪碧图地址
+@url: '/static/img/icons_03.png';
+
+// 导航列表及种类的样式
+.kindlist {
+    width: 180px;
+    height: 400px;
+    background-color: #FAFAFA;
+    padding: 18px 0 18px 0;
+    box-sizing: border-box;
+    // 设立单个样式
+    li {
+        position: relative;
+        width: 100%;
+        height: 52px;
+        padding: 0 30px 0 24px;
+        box-sizing: border-box;
+        // 设置hover效果
+        &:hover {
+            span {
+                color: @color;
+            }
+            .kind-icon-position0 {
+                background-position: -32px 0px;
+            }
+            .kind-icon-position1 {
+                background-position: -32px -54px;
+            }
+            .kind-icon-position2 {
+                background-position: -32px -108px;
+            }
+            .kind-icon-position3 {
+                background-position: -32px -162px;
+            }
+            .kind-icon-position4 {
+                background-position: -32px -212px;
+            }
+            .kind-icon-position5 {
+                background-position: -32px -262px;
+            }
+            .kind-icon-position6 {
+                background-position: -32px -314px;
+            }
+            .arrow-icon-position {
+                background-position: -461px -15px;
+            }
+        }
+        // 文字样式
+        span {
+            display: inline-block;
+            line-height: 52px;
+            font-size: 14px;
+            color: #333;
+            margin-left: 5px;
+        }
+        // 设置种类图标样式
+        .kind-icon {
+            vertical-align: middle;
+            display: inline-block;
+            width: 32px;
+            height: 32px;
+            background: url(@url);
+        }
+        // 设置种类图标的位置
+        .kind-icon-position0 {
+            background-position: 0px 0px;
+        }
+        .kind-icon-position1 {
+            background-position: 0px -54px;
+        }
+        .kind-icon-position2 {
+            background-position: 0px -108px;
+        }
+        .kind-icon-position3 {
+            background-position: 0px -162px;
+        }
+        .kind-icon-position4 {
+            background-position: 0px -212px;
+        }
+        .kind-icon-position5 {
+            background-position: 0px -262px;
+        }
+        .kind-icon-position6 {
+            background-position: 0px -314px;
+        }
+        // 设置箭头样式
+        .arrow-icon {
+            position: absolute;
+            top: 50%;
+            right: 30px;
+            transform: translateY(-50%);
+            display: inline-block;
+            height: 8px;
+            width: 5px;
+            background: url(@url);
+        }
+        .arrow-icon-position {
+            background-position: -474px -15px;
+        }
+    }
+}
